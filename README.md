@@ -18,5 +18,5 @@ git subtree pull --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.
 
 ## 推送修改到源仓库subtreeTestChild
 ```
-git subtree push --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master --squash
+git subtree push --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master
 ```

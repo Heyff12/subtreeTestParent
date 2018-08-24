@@ -10,5 +10,5 @@ git subtree pull --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.
 # 在parent更改child文件，并push,查看 child的内容是否变化  
 ##  在parent执行
 ```
-git subtree push --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master --squash
+git subtree push --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master
 ```
