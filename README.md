@@ -8,3 +8,15 @@ subtreeTestParent,测试subtree的功能，
 ```
 git subtree add --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master --squash
 ```
+
+
+## 从subtreeTestChild源仓库拉取更新
+```
+git subtree pull --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master --squash
+```
+
+
+## 推送修改到源仓库subtreeTestChild
+```
+git subtree push --prefix=sub/child https://github.com/Heyff12/subtreeTestChild.git master --squash
+```
